@@ -3,7 +3,7 @@
 
 # Nvidia Cuda Docker Image built upon ubuntu 18.04
 # https://gitlab.com/nvidia/cuda/blob/ubuntu18.04/10.1/base/Dockerfile
-ARG BASE_CONTAINER=nvidia/cuda:10.1-base
+ARG BASE_CONTAINER=nvidia/cuda:10.0-cudnn7-runtime-ubuntu18.04
 FROM $BASE_CONTAINER
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
